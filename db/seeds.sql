@@ -30,5 +30,5 @@ VALUES
   ('Mallory', 'Korpics', 7, 3),
   ('Janelle', 'Riaubia', 8, 6),
   ('John', 'Cox', 1, 6),
-  ('Chop', 'Suey', 4, 2),
-  ('Shine', 'Beta', 6, 1); 
+  ('Ellen', 'Robeson', 4, 2),
+  ('Misha', 'Kutcher', 6, 1); 

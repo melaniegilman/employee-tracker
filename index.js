@@ -19,6 +19,7 @@ connection.connect(err => {
     console.log('Connection is successful');
     start();
   });
+
 //function to prompt user
 function start() {
     inquirer.prompt([
@@ -127,6 +128,7 @@ function allRoles() {
         start()
     })
 };
+
 //function to view employees by department
 function employeesByDep() {
     let departmentQuery = "SELECT * FROM department;";   
@@ -170,8 +172,7 @@ function employeesByDep() {
                 })
             })
         })
-    }
-    
+    }    
         
 //function to view employees by manager
 function employeesByManager() {
@@ -244,6 +245,7 @@ function removeEmployee() {
 })
 })
 }
+
 // function to delete role
 function removeRole() {
     var roleQuery = "SELECT * FROM employee_role;";
@@ -386,6 +388,7 @@ function addEmployee() {
     })
 });
 }
+
 //function to add department
 function addDep() {
     inquirer.prompt([ 
@@ -457,6 +460,7 @@ function addRole() {
         })
     })
 };
+
 //function to update employee role
 function updateRole() {
     
